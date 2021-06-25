@@ -46,6 +46,9 @@ header img {
     padding: 2rem 10rem;
     position: absolute;
   }
+  header img {
+    height: initial;
+  }
 }
 
 .hero {
@@ -312,7 +315,7 @@ header img {
   }
   to {
     opacity: 1;
-    line-height: 1;
+    line-height: 1.1;
   }
 }
 
@@ -323,7 +326,7 @@ header img {
   }
   to {
     opacity: 1;
-    line-height: 1;
+    line-height: 1.1;
   }
 }
 

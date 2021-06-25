@@ -27,6 +27,9 @@ header{
     @include laptop-query{
         padding: $padding-small $padding-large;
         position: absolute;
+        img{
+            height: initial;
+        }
     }
 }
 
@@ -254,7 +257,7 @@ header{
     }
     to{
         opacity: 1;
-        line-height: 1;
+        line-height: 1.1;
     }
 }
 
