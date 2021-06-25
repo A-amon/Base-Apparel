@@ -263,6 +263,8 @@ header img {
 @media screen and (min-width: 1024px) {
   .hero {
     background: url("../../assets/images/bg-pattern-desktop.svg"), linear-gradient(135deg, white, #fff5f5);
+    background-repeat: no-repeat;
+    background-size: 60% auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

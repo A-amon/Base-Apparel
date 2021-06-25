@@ -210,6 +210,8 @@ header{
 
     @include laptop-query{
         background:url("../../assets/images/bg-pattern-desktop.svg"), $white-gradient;
+        background-repeat: no-repeat;
+        background-size:60% auto;
         display: flex;
         min-height: 100vh;
         align-items: center;
