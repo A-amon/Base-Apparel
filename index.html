@@ -35,12 +35,12 @@
                     We're currently building our new fashion store.
                     Add your email below to stay up-to-date with announcements and our launch deals.
                 </p>
-                <form class="hero__form" novalidate>
+                <form class="hero__form" aria-live="polite" novalidate>
                     <div class="form__group">
-                        <input type="email" name="email" placeholder="Email Address">
-                        <span class="form__error">Invalid email</span>
+                        <input type="email" name="email" placeholder="Email Address" aria-label="Enter email address">
+                        <span class="form__error"></span>
                     </div>
-                    <button type="submit">
+                    <button type="submit" aria-label="Press Enter or click to submit">
                         <span>Thank you for subscribing</span>
                     </button>
                 </form>
